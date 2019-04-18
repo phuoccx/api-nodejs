@@ -1,0 +1,25 @@
+{
+  "name": "node.api",
+  "version": "1.0.0",
+  "description": "demo api with node ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "test api"
+  },
+  "keywords": [
+    "api",
+    "demo"
+  ],
+  "author": "phuoc.cao",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
